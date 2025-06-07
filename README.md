@@ -56,5 +56,20 @@ model.fit(X, y)
 with open("rf_model.pkl", "wb") as f:
     pickle.dump(model, f)
 ```
+### ✅ Here's What to Do:
+🔬 Try It in Google Colab
+
+Want to retrain or experiment with the model in your browser?
+
+👉 [Open in Google Colab](https://colab.research.google.com/drive/1OJQpa0-gjRgXeWtIbtlZ8YfOeyWAxnu9?usp=sharing)
+
+> You can retrain the RandomForest model and export a new `rf_model.pkl` file.
+## 📁 Optional Real Dataset
+
+If you'd like to experiment with real-world data:
+
+📌 [Kaggle: Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+
+> Contains 284,807 transactions with 30 features (`Time`, `Amount`, `V1-V28`, and `Class`).
 ## 📄 License
 This project is licensed under the MIT License.
